@@ -48,6 +48,7 @@
                 "face": "Fira Code"
             },
             "opacity": 90,
+            "startingDirectory": "D:\\Documents\\GitHub",
             "useAcrylic": true
         },
         "list": 
@@ -65,12 +66,13 @@
                 "tabTitle": "Ubuntu"
             },
             {
-                "commandline": "C:\\Program Files\\Git\\git-bash.exe",
+                "commandline": "\"C:\\Program Files\\Git\\usr\\bin\\bash.exe\" --login -i",
                 "guid": "{ff5fed90-f0b6-4292-bc6b-53f6627009f2}",
                 "hidden": false,
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash",
-                "startingDirectory": "D:\\Documents\\GitHub"
+                "startingDirectory": "D:\\Documents\\GitHub",
+                "tabTitle": "Git Bash"
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -86,7 +88,7 @@
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": true,
+                "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure",
                 "startingDirectory": "D:\\Documents\\GitHub"
