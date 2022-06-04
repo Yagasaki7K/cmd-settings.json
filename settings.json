@@ -30,7 +30,7 @@
         }
     ],
     "copyFormatting": "none",
-    "copyOnSelect": false,
+    "copyOnSelect": true,
     "defaultProfile": "{ff5fed90-f0b6-4292-bc6b-53f6627009f2}",
     "profiles": 
     {
@@ -42,14 +42,14 @@
             "backgroundImageStretchMode": "none",
             "colorScheme": "Aurelia", // Evangelion
             "cursorShape": "vintage",
-            "experimental.retroTerminalEffect": true,
+            "experimental.retroTerminalEffect": false, // true
             "font": 
             {
                 "face": "Fira Code"
             },
             "opacity": 90,
             "startingDirectory": "D:\\Documents\\GitHub",
-            "useAcrylic": true
+            "useAcrylic": true,
         },
         "list": 
         [
@@ -98,6 +98,7 @@
     "schemes": 
     [
         {
+            "name": "Evangelion",
             "background": "#000000",
             "black": "#0C0C0C",
             "blue": "#0037DA",
@@ -113,7 +114,6 @@
             "cyan": "#3A96DD",
             "foreground": "#EB9318",
             "green": "#13A10E",
-            "name": "Evangelion",
             "purple": "#881798",
             "red": "#C50F1F",
             "selectionBackground": "#FFFFFF",
